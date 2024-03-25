@@ -188,7 +188,9 @@ module.exports = {
       '6xl': '72rem',
       '7xl': '80rem',
     },
-    container: {},
+    container: {
+  
+    },
     content: {
       none: 'none',
     },
