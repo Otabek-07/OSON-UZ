@@ -13,7 +13,7 @@
   <!-- HEADR START -->
   <header id="headr" class="bg-blue-900  max-h-20 border-b-2 border-blue-400">
 
-    <div class="container mx-auto">
+    <div class="container mx-auto px-20">
 
       <nav class="flex justify-between items-center text-white">
 
@@ -40,11 +40,12 @@
               <button type="button"
                 class="inline-flex w-full justify-center gap-x-1.5 rounded-2xl bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm- ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                 id="menu-button" aria-expanded="true" aria-haspopup="true">
-                 <div class="flex items-center gap-3 " onclick="toggelMenu()"><img src="./paplic/icons/uzblogo.svg" alt="Uzbekiston">Uz</div>
+                <div class="flex items-center gap-3 " onclick="toggelMenu()"><img src="./paplic/icons/uzblogo.svg"
+                    alt="Uzbekiston">Uz</div>
               </button>
             </div>
 
-      
+
             <div id="subMenu"
               class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg hidden ring-1 ring-black ring-opacity-5 focus:outline-none"
               role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
@@ -61,7 +62,7 @@
                     tabindex="-1" id="menu-item-3">Turkmaniston</button>
                 </form>
               </div>
-              
+
             </div>
           </div>
 
@@ -69,77 +70,224 @@
       </nav>
     </div>
   </header>
- <!-- HEADR END -->
+  <!-- HEADR END -->
+
+
+
   <main>
-       <h1 class="text-center py-8 font-bold text-[50px]">Assalomu alaykum bu Main qismi <br> Bizni ananalar</h1>
+    <!-- --------- intro start ---------- -->
+    <section id="intro" class="bg-[#0000B2] pt-20 pb-20">
+      <div class="container mx-auto px-20">
+        <div class="wrapper grid grid-cols-2 items-center">
+          <div class="left">
+            <h1 class="text-[64px] font-poppins font-bold leading-[80px] text-white pb-5">OSON Hamyon <br>
+              statusini yangilang</h1>
+            <p class="text-[#F1F8FB] text-[18px] font-medium font-poppins leading-[22.5px]">Yangi moliyaviy
+              imkoniyatlar <br> olamini kashf eting</p>
+          </div>
+          <div class="right">
+            <img class="px-20" src="./paplic/images/intro image.svg" alt="intro image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- intro end ---------- -->
+
+
+
+
+    <!-- --------- status start ---------- -->
+    <section id="start" class="pt-20">
+      <div class="container mx-auto px-20">
+        <h4>OSON statuslarini olish</h4>
+        <div class="wrap grid grid-cols-4 gap-10 pt-5">
+          <div class="kerak">
+            <div class="flex">
+              <p class="text-[#1694CA]">1</p>
+              <img class="px-5" src="./paplic/icons/Arrow.svg" alt="arrow image">
+            </div>
+            <h2 class="font-poppins text-[32px] font-bold leading-10 text-[#000033]">Nima kerak</h2>
+            <p class="font-poppins leading-5 text-[#000066]">Yoshi: 18 dan yuqori </p>
+            <p class="font-poppins leading-5 text-[#000066]">Passport</p>
+          </div>
+          <div class="kerak">
+            <div class="flex">
+              <p class="text-[#1694CA]">1</p>
+              <img class="px-5" src="./paplic/icons/Arrow.svg" alt="arrow image">
+            </div>
+            <h2 class="font-poppins text-[32px] font-bold leading-10 text-[#000033]">Ish vaqti</h2>
+            <p class="font-poppins leading-5 text-[#000066]">Du - Ju</p>
+            <p class="font-poppins leading-5 text-[#000066]">9 : 00 - 18 : 00</p>
+          </div>
+          <div class="kerak">
+            <div class="flex">
+              <p class="text-[#1694CA]">1</p>
+              <img class="px-5" src="./paplic/icons/Arrow.svg" alt="arrow image">
+            </div>
+            <h2 class="font-poppins text-[32px] font-bold leading-10 text-[#000033]">Bog’lanish</h2>
+            <p class="font-poppins leading-5 text-[#000066]">+71 207 80 80</p>
+            <p class="font-poppins leading-5 text-[#000066]">@oson_offical</p>
+          </div>
+
+          <div class="oson">
+            <img src="./paplic/images/ellipse 2.png" alt="oson image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- status end ---------- -->
+
+
+    <section id="card" class="pt-20">
+      <div class="container mx-auto px-20">
+        <div class="grid grid-cols-3">
+          <div class="card bg-[#F5F5F5] w-[387px] rounded-[10px] p-10">
+            <p class="font-poppins font-semibold text-[#0A435C] pb-5">Boshlang’ich</p>
+            <img class="px-20 pb-10" src="./paplic/images/card icon.png" alt="card image">
+            <h4 class="font-poppins text-[20px] text-[#000066] font-medium pb-10">Hamyon ochilganda</h4>
+            <div class="flex justify-between">
+              <div class="hamyon">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Hamyon uchun</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">1 500 000 so’m</p>
+              </div>
+              <div class="paid">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Bir martalik to’lov</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">300 000 so’m</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-[#F5F5F5] w-[387px] rounded-[10px] p-10">
+            <p class="font-poppins font-semibold text-[#0A435C] pb-5">Boshlang’ich</p>
+            <img class="px-20 pb-10" src="./paplic/images/card icon.png" alt="card image">
+            <h4 class="font-poppins text-[20px] text-[#000066] font-medium pb-10">Hamyon ochilganda</h4>
+            <div class="flex justify-between">
+              <div class="hamyon">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Hamyon uchun</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">1 500 000 so’m</p>
+              </div>
+              <div class="paid">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Bir martalik to’lov</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">300 000 so’m</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-[#F5F5F5] w-[387px] rounded-[10px] p-10">
+            <p class="font-poppins font-semibold text-[#0A435C] pb-5">Boshlang’ich</p>
+            <img class="px-20 pb-10" src="./paplic/images/card icon.png" alt="card image">
+            <h4 class="font-poppins text-[20px] text-[#000066] font-medium pb-10">Hamyon ochilganda</h4>
+            <div class="flex justify-between">
+              <div class="hamyon">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Hamyon uchun</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">1 500 000 so’m</p>
+              </div>
+              <div class="paid">
+                <h6 class="font-poppins font-medium text-[13px] text-[#0000FF] pb-5">Bir martalik to’lov</h6>
+                <p class="font-poppins font-bold text-[20px] text-[#0000FF]">300 000 so’m</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="numbers" class="pt-20 pb-20">
+      <div class="container mx-auto px-20">
+        <div class="wrap">
+          <div class="btn flex gap-10 items-center pb-5">
+            <button class="w-[58px] h-[56px] rounded-[16px] p-[10px 20px] bg-[#0000CC] text-[24px] font-bold text-white">1</button>
+            <h4 class="font-poppins text-[24px] leading-9 text-[#00004D]">Boshlang`ich statusni olish uchun mobile ilovani yuklab oling</h4>
+          </div>
+          <div class="btn flex gap-10 items-center pb-5">
+            <button class="w-[58px] h-[56px] rounded-[16px] p-[10px 20px] bg-[#0000CC] text-[24px] font-bold text-white">2</button>
+            <h4 class="font-poppins text-[24px] leading-9 text-[#00004D]">Asosiy statusni olish uchun ariza yuboring</h4>
+          </div>
+          <div class="btn flex gap-10">
+            <button class="w-[58px] h-[56px] rounded-[16px] p-[10px 20px] bg-[#0000CC] text-[24px] font-bold text-white">3</button>
+            <h4 class="font-poppins text-[24px] leading-9 text-[#00004D]">Professional statusni olish uchun bizning ofisga tashrif buyuring</h4>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
   </main>
 
 
 
 
-<footer class="bg-blue-900">
-     <div class="container mx-auto">
-         <div class="flex gap-52 py-11 text-white text-[18px] font-medium">
-             <div class="flex gap-48">
-                 <div class="flex gap-12">
-                  <ul>
-                    <li class="mb-[10px]"><a href="#">Ananalarimiz</a></li>
-                    <li class="mb-[10px]"><a href="#">Hujjatlar</a></li>
-                    <li class="mb-[10px]"><a href="#">Tariflar</a></li>
-                    <li class="mb-[10px]"><a href="#">Business</a></li>
-                </ul>
-                <ul class="border-l border-white px-6">
-                    <li class="mb-[10px]"><a href="#">About</a></li>
-                    <li class="mb-[10px]"><a href="#">Hujjatlar</a></li>
-                    <li class="mb-[10px]"><a href="#">Tariflar</a></li>
-                    <li class="mb-[10px]"><a href="#">Aloqa</a></li>
-                </ul>
-                 </div>
-                 <div>
-                     <div class="border-b pb-4 border-white mb-4">
-                        <a href="#" class="flex items-center gap-3 max-w-80"><img class="-mt-[20px]" src="./paplic/icons/iconlacatsiya.svg" alt="Joylashuv"> Yunusobod tumani , Kichik Xalqa yo’li Scuer Mahalla   11-a Uy</a>
-                     </div>
-                     <span class="px-8">+71  207-80-80</span>
-                     <div class="border-t  border-white mt-4 pt-4"><a href="#" class="flex items-center gap-3"><img src="./paplic/icons/iconemail.svg" alt="Email.com"> oson.uz@gmail.com</a></div>
-                 </div>
-             </div>
-             <div>
-                 <p class="mb-[30px]">Download App</p>
-                  <div class="flex gap-5">
-                    <button class="bg-white text-[16px] font-semibold text-black p-4 rounded-2xl flex items-center gap-6"><img src="./paplic/icons/iconplaymarket.svg" alt="Play Market"> Google Play</button>
-                    <button class="bg-white text-[16px] font-semibold text-black p-4 rounded-2xl flex items-center gap-6"><img src="./paplic/icons/iconapp Store.svg" alt="App Store"> App Store</button>
-                  </div>
+  <footer class="bg-blue-900">
+    <div class="container mx-auto px-20">
+      <div class="flex gap-52 py-11 text-white text-[18px] font-medium">
+        <div class="flex gap-48">
+          <div class="flex gap-12">
+            <ul>
+              <li class="mb-[10px]"><a href="#">Ananalarimiz</a></li>
+              <li class="mb-[10px]"><a href="#">Hujjatlar</a></li>
+              <li class="mb-[10px]"><a href="#">Tariflar</a></li>
+              <li class="mb-[10px]"><a href="#">Business</a></li>
+            </ul>
+            <ul class="border-l border-white px-6">
+              <li class="mb-[10px]"><a href="#">About</a></li>
+              <li class="mb-[10px]"><a href="#">Hujjatlar</a></li>
+              <li class="mb-[10px]"><a href="#">Tariflar</a></li>
+              <li class="mb-[10px]"><a href="#">Aloqa</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="border-b pb-4 border-white mb-4">
+              <a href="#" class="flex items-center gap-3 max-w-80"><img class="-mt-[20px]"
+                  src="./paplic/icons/iconlacatsiya.svg" alt="Joylashuv"> Yunusobod tumani , Kichik Xalqa yo’li Scuer
+                Mahalla 11-a Uy</a>
+            </div>
+            <span class="px-8">+71 207-80-80</span>
+            <div class="border-t  border-white mt-4 pt-4"><a href="#" class="flex items-center gap-3"><img
+                  src="./paplic/icons/iconemail.svg" alt="Email.com"> oson.uz@gmail.com</a></div>
+          </div>
+        </div>
+        <div>
+          <p class="mb-[30px]">Download App</p>
+          <div class="flex gap-5">
+            <button class="bg-white text-[16px] font-semibold text-black p-4 rounded-2xl flex items-center gap-6"><img
+                src="./paplic/icons/iconplaymarket.svg" alt="Play Market"> Google Play</button>
+            <button class="bg-white text-[16px] font-semibold text-black p-4 rounded-2xl flex items-center gap-6"><img
+                src="./paplic/icons/iconapp Store.svg" alt="App Store"> App Store</button>
+          </div>
 
-             </div>
-         </div>
+        </div>
+      </div>
 
-         <div class="flex pt-[140px] pb-32  gap-10">
-              <div class="w-[580px] border-t border-white"></div>
-              <div class="flex gap-3 -mt-3">
-                  <a href="#"><img src="./paplic/icons/icontelegram.svg" alt="Telegram"></a>
-                  <a href="#"><img src="./paplic/icons/iconfezbook.svg" alt="Facebook"></a>
-                  <a href="#"><img src="./paplic/icons/iconinstagram.svg" alt="Instagram"></a>
-                  <a href="#"><img src="./paplic/icons/iconyoutab.svg" alt="Youtab"></a>
-              </div>
-              <div class="w-[580px] border-t border-white"></div>
-         </div>
-     </div>
-     <div class="border-t border-white">
-         <div class="container mx-auto">
-              <div class="flex items-center gap-[52px] text-white py-[17px] font-normal">
-                 <span>Designer by: OGABEK YUSUF</span>
-                 <span>10. 10. 2022 year</span>
-              </div>
-         </div>
-     </div>
-</footer>
+      <div class="flex pt-[140px] pb-32  gap-10">
+        <div class="w-[580px] border-t border-white"></div>
+        <div class="flex gap-3 -mt-3">
+          <a href="#"><img src="./paplic/icons/icontelegram.svg" alt="Telegram"></a>
+          <a href="#"><img src="./paplic/icons/iconfezbook.svg" alt="Facebook"></a>
+          <a href="#"><img src="./paplic/icons/iconinstagram.svg" alt="Instagram"></a>
+          <a href="#"><img src="./paplic/icons/iconyoutab.svg" alt="Youtab"></a>
+        </div>
+        <div class="w-[580px] border-t border-white"></div>
+      </div>
+    </div>
+    <div class="border-t border-white">
+      <div class="container mx-auto">
+        <div class="flex items-center gap-[52px] text-white py-[17px] font-normal">
+          <span>Designer by: OGABEK YUSUF</span>
+          <span>10. 10. 2022 year</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
- <script>
-   let subMenu = document.getElementById("subMenu");
-    function toggelMenu(){
-       subMenu.classList.toggle("hidden")
+  <script>
+    let subMenu = document.getElementById("subMenu");
+    function toggelMenu() {
+      subMenu.classList.toggle("hidden")
     }
- </script>
+  </script>
 </body>
+
 </html>
